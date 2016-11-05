@@ -22,6 +22,7 @@ Arduino based binary clock with Webinteface, GPS/NTP-Sync, Alarm, Timezones
 * soldering equipment
 * dril 5mm, 6mm (for switches)
 * saw
+* hotglue
 
 # SETUP HARDWARE
 
