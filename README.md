@@ -50,6 +50,9 @@ Arduino based binary clock with Webinteface, GPS/NTP-Sync, Alarm, Timezones
 * PASSWORD : 1590
 
 # IMAGES
+### FRONT
 ![Gopher image](PHOTOS/clock_final.JPG)
+### BACK
 ![Gopher image](PHOTOS/clock_back.JPG)
+### OLD HARDWARE
 ![Gopher image](PHOTOS/a_part.JPG)
