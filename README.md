@@ -25,11 +25,18 @@ Arduino based binary clock with Webinteface, GPS/NTP-Sync, Alarm, Timezones
 * hotglue
 
 # SETUP HARDWARE (simplyfied version)
-
+* solder all leds to a long chain,  connect DOUT to DIN of the next led
+* connect the TRC Module to the I2C Bus of the Arduino
+* connect the buttons with pullup resistors to D4, D5, D6 (if pressed pin to ground)
+* connect the DI of the first led with pin D7 of the arduino
+* connect the speaker to PIN D2
+* drill 5mm holes into your front plate of the case
+* glue the leds in
+* place the other parts inside the case 
 
 # SETUP SOFTWARE
 * download the latest Arduino IDE
-* download the sketch located at /src/arduino_binary_clock
+* download the sketch located at /src/mega_beta14_ gps vorbereitet/
 * upload it to your arduino 
 
 # USE IT
@@ -43,4 +50,4 @@ Arduino based binary clock with Webinteface, GPS/NTP-Sync, Alarm, Timezones
 * PASSWORD : 1590
 
 # IMAGES
-![Gopher image](PHOTOS/Photo-21-04-14-02-08-59-0.JPG)
+![Gopher image](PHOTOS/clock_open.JPG)
